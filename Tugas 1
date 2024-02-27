@@ -1,0 +1,136 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+// Nama  : Moza Surya Putra
+// NPM   : 2217051014
+// Kelas : A
+
+//1.VARIABEL
+// fun main() {
+//     var a : Int = 10
+//     a = 5
+//     println(a)
+// }
+
+
+// fun main(){
+//     val a : Int = 10 //Val Tidak bisa diberi nilai baru
+//     a = 5 
+//     printn(a)
+// }
+
+
+//2.IF EXPRESSION
+// fun main(){
+//     var a : Int = 10
+//     var b : Int = 5
+    
+//     if (a<b){
+//         println("A kurang dari B")
+//     }else {
+//         println("A lebih besar dari B")
+//     }
+// }
+
+
+//3.WHEN EXPRESSION
+// fun main(){
+//     val a = 10
+//     when (a){
+//         9 -> println("Angka 9")
+//         10 -> println("Angka 10")
+//         else -> println("Tidak ada")
+//     }
+// }
+
+// fun main(){
+//     val a = 9
+//     when (a){
+//         9 -> {
+//             println(a)
+//             println("Adalah angka 9 ")
+//         }
+//         10 -> println("Angka 10")
+//         else -> println("Tidak ada")
+//     }
+// }
+
+
+//4.LOOPING
+// fun main(){
+//     var a = 1
+//     while(a<3){
+//         println(a)
+//         a++
+//     }
+// }
+
+// fun main(){
+//     var a = 1
+    
+//     do{
+//        println(a)
+//        a++
+//     }while(a<2)
+// }
+
+// fun main(){
+//     var a = 1.rangeTo(10)
+//     for(i in a){
+//         println("Nilai a : $i")
+//     }
+// }
+
+//5.ARRAY
+// fun main(){
+//     var a = arrayOf(1,2,3)
+//     println(a[1])
+// }
+
+//6.Nullable
+// fun main(){
+//     var a : Int? = null
+//     println(a)
+// }
+
+//7.Function
+//Fungsi
+// fun hitung(a: Int, b : Int ): Int{
+//     return a+b
+// }
+// fun main(){
+//     println(hitung(10,10))
+// }
+
+//Prosedur
+// fun hitung(a: Int, b : Int ): Unit{
+//     print(a+b)
+// }
+// fun main(){
+//     hitung(10,10)
+// }
+
+//8.Class
+// class Animal(){
+//     var name : String = " Kucing"
+//     var weight : Double = 3.2
+//     var age : Int = 2
+//     var isMammal : Boolean = true
+    
+//     fun eat(){
+//         print("$name makan!")
+//     }
+//     fun sleep(){
+//         println("$name tidur")
+        
+//     }
+// }
+
+// fun main(){
+//     var hewan = Animal()
+//     hewan.eat()
+// }
+
+
+
